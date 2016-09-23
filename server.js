@@ -49,6 +49,7 @@ function createTemplate(data){
     
     var templateObj = 
     `<html>
+        <link rel="stylesheet" type="text/css" href="/ui/mystyle.css";>
         <center>
             <bold1>
                 ${title};
@@ -69,10 +70,6 @@ function createTemplate(data){
     
     return templateObj;
 }
-
-app.get('/ui/mystyle.css', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
- });
 
 app.get('/:articleName', function (req, res) {
   var articleName=req.params.articleName;    
