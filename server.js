@@ -48,10 +48,10 @@ function createTemplate(data){
     var content = data.content;
     
     var templateObj = 
-    `<html>
-        <head>
-        <link rel="stylesheet" type="text/css" href="/ui/mystyle.css">
-        </head>
+    `app.get('/ui/mystyle.css', function (req, res) {
+            res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
+        });
+    <html>
         <center>
             <bold>
                 ${title};
