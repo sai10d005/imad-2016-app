@@ -42,19 +42,19 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 function createTemplate(data){
-    var title = data.title;
-    var heading = data.heading;
+    var title = data.title.bold;
+    var heading = data.heading.bold;
     var date = data.date;
     var content = data.content;
     
     var templateObj = 
     `<html>
         <div class="center text-big bold">
-            ${title.bold};
+            ${title};
         </div>
         <br>
         <div class="center text-big bold">
-            ${heading.bold};
+            ${heading};
         </div>
         <br>
         <head>
