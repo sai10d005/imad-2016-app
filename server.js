@@ -50,7 +50,7 @@ function createTemplate(data){
     var templateObj = 
     `<html>
         <head>
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" type="text/css" href="ui/mystyle.css">
         </head>
         <center>
             <bold>
