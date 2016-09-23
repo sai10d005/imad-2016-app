@@ -42,8 +42,8 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 function createTemplate(data){
-    var title = data.title.bold;
-    var heading = data.heading.bold;
+    var title = String(data.title).bold;
+    var heading = data.heading;
     var date = data.date;
     var content = data.content;
     
