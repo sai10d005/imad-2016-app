@@ -41,6 +41,10 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+app.get('/ui/mystyle.css', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
+ });
+
 function createTemplate(data){
     var title = data.title.bold();
     var heading = data.heading;
@@ -48,22 +52,19 @@ function createTemplate(data){
     var content = data.content;
     
     var templateObj = 
-    `app.get('/ui/mystyle.css', function (req, res) {
-            res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
-        });
-    <html>
+    `<html>
         <center>
-            <bold>
+            <bold1>
                 ${title};
-            </bold>
+            </bold1>
             <br>
-            <body>
+            <body1>
                 ${heading};
-            </body>
+            </body1>
             <br>
-            <color>
+            <color1>
                 ${date};
-            </color>
+            </color1>
             <br>
             <br>
              ${content};
