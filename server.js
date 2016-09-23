@@ -41,10 +41,6 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/ui/mystyle.css', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
- });
-
 function createTemplate(data){
     var title = data.title.bold();
     var heading = data.heading;
@@ -73,6 +69,10 @@ function createTemplate(data){
     
     return templateObj;
 }
+
+app.get('/ui/mystyle.css', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
+ });
 
 app.get('/:articleName', function (req, res) {
   var articleName=req.params.articleName;    
