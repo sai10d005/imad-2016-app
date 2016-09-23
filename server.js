@@ -20,7 +20,9 @@ var articles =
         heading:`This is article two data`,
         date :'Sep 21, 2016',
         content:`Saikiran
+                 <br>
                  BTech : GRIET
+                 <br>
                  MTech : IITM`
     }
 };
