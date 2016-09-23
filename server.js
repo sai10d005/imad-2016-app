@@ -53,11 +53,17 @@ function createTemplate(data){
         <link rel="stylesheet" type="text/css" href="mystyle.css">
         </head>
         <center>
-            ${title};
+            <bold>
+                ${title};
+            </bold>
             <br>
-            ${heading};
+            <body>
+                ${heading};
+            </body>
             <br>
-            ${date};
+            <color>
+                ${date};
+            </color>
             <br>
             <br>
              ${content};
