@@ -21,5 +21,9 @@ body1 {
 }
 
 .color1 {
+    color: red;
+}
+
+.color2 {
     color: blue;
 }
