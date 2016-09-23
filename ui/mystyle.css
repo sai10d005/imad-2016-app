@@ -1,25 +1,25 @@
-body {
+body1 {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
 }
 
-.center {
+.cente1 {
     text-align: center;
 }
 
-.text-big {
+.text-big1 {
     font-size: 300%;
 }
 
-.bold {
+.bold1 {
     font-weight: bold;
 }
 
-.img-medium {
+.img-medium1 {
     height: 200px;
 }
 
-.color {
+.color1 {
     color: blue;
 }
