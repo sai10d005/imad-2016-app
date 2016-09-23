@@ -41,6 +41,10 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+app.get('/ui/mystyle.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'mystyle.css'));
+});
+
 function createTemplate(data){
     var title = data.title.bold();
     var heading = data.heading;
@@ -50,7 +54,7 @@ function createTemplate(data){
     var templateObj = 
     `<html>
         <head>
-        <link rel="stylesheet" type="text/css" href="/ui/mystyle.css">
+        <link href="/ui/mystyle.css" rel="stylesheet" />
         </head>
         <center>
             <bold1>
