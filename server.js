@@ -59,6 +59,7 @@ function createTemplate(data){
             ${date};
         </head>
         <br>
+        <br>
         <body>
             ${content};
         </body>
