@@ -49,7 +49,9 @@ function createTemplate(data){
     
     var templateObj = 
     `<html>
-        <link rel="stylesheet" type="text/css" href="/ui/mystyle.css";>
+        <head>
+        <link rel="stylesheet" type="text/css" href="/ui/mystyle.css">
+        </head>
         <center>
             <bold1>
                 ${title};
