@@ -12,7 +12,9 @@ var articles =
         heading:`This is article one data`,
         date :'Sep 22, 2016',
         content:`Geeta
+                 <br>
                  BTech : Sasi
+                 <br>
                  MTech : VISIT`
     },
     'article-two':{
