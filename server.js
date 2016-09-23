@@ -50,11 +50,11 @@ function createTemplate(data){
     var templateObj = 
     `<html>
         <div class="center text-big bold">
-            ${title};
+            ${title.bold};
         </div>
         <br>
         <div class="center text-big bold">
-            ${heading};
+            ${heading.bold};
         </div>
         <br>
         <head>
