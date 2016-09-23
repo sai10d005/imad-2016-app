@@ -70,7 +70,9 @@ function createTemplate(data){
             </div>
             <br>
             <br>
-             ${content};
+            <div class="center1 color2">
+                ${content};
+            </div>
         </body1>
     </html>`;
     
