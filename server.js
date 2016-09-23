@@ -56,22 +56,22 @@ function createTemplate(data){
         <head>
         <link href="/ui/mystyle.css" rel="stylesheet" />
         </head>
-        <center>
-            <bold1>
-                ${title};
-            </bold1>
+        <body1>
+            <div class="center1 text-big1 bold1">
+              ${title};
+            </div>
             <br>
-            <body1>
+            <div class="center1 bold1">
                 ${heading};
-            </body1>
+            </div>
             <br>
-            <color1>
+            <div class="center1 color1">
                 ${date};
-            </color1>
+            </div>
             <br>
             <br>
              ${content};
-        </center>
+        </body1>
     </html>`;
     
     return templateObj;
