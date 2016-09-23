@@ -65,9 +65,9 @@ function createTemplate(data){
                 ${heading};
             </body1>
             <br>
-            <color>
+            <color1>
                 ${date};
-            </color>
+            </color1>
             <br>
             <br>
              ${content};
